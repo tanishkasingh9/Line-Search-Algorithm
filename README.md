@@ -11,8 +11,8 @@ THe difference between Backtracking and Optimal Line Search is that for the form
 ```
 1: t=1
 2: dx = - df(x')
-3: repeat t = bt
-4: until f(x' +tdx)<f(dx) + at 5f(x')^Tdx
+3: repeat t = b.t
+4: until f(x' +t.dx)<f(dx) + a.t.df(x')^Tdx
 ```
 
 where a is the learning rate and b is the change factor. Step 4 is known as the stopping condition and should be checked for every step. <br>
@@ -31,7 +31,7 @@ where a is the learning rate and b is the change factor. Step 4 is known as the 
 4: for some fixed number of iterations
 5: do increment t=stepsize by some constant small value, here 0.001
 6: dx = - df(xold)
-7: find xnew= xold + tdx
+7: find xnew = xold + t.dx
 8: if f(xnew) > min[0] then update min[0] = f(xnew) and min[1] = t .
 9: xold= xnew
 10: until stopping criteria is met
