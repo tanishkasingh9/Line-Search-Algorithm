@@ -38,5 +38,5 @@ where a is the learning rate and b is the change factor. Step 4 is known as the 
 
 ```
 <p align="center">
-  <img src="https://raw.githubusercontent.com/tanishkasingh9/Line-Search-Algorithm/master/Images/optimalsearch.png"> 
+  <img src="https://raw.githubusercontent.com/tanishkasingh9/Line-Search-Algorithm/master/Images/exact.png"> 
   </p>
